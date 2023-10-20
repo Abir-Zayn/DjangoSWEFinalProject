@@ -132,6 +132,6 @@ def showresultbook(request):
         }
         return render(request, 'showresultsbook.html', context)
 
-def logout(request):
+def logoutapp(request):
     logout(request)
     return redirect('LoginPage')
